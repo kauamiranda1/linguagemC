@@ -1,1 +1,1 @@
-codigo em C que funciona como uma calculadora no terminal
+todos meus exercicios de desenvolvimento C#
