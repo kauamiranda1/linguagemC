@@ -3,14 +3,14 @@
 
 int main(){
 int i;
-int vetor[10];
+int num[10];
 int n1;
 int achado = 0;
 
 for ( i = 0; i < 10; i++)
 {
     printf("digite seus 10 numeros: ", i);
-    scanf("%d", &vetor[i]);
+    scanf("%d", &num[i]);
 }
 
     printf("digite o numero para procurar: ");
@@ -18,7 +18,7 @@ for ( i = 0; i < 10; i++)
 
 for ( i = 0; i < 10; i++)
 {
-    if (vetor[i]==n1)
+    if (num[i]==n1)
     {
         achado=1;
     }
